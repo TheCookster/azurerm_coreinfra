@@ -1,0 +1,14 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+
+# Module directory
+.terraform/
+
+# Terragrunt caches etc
+.terragrunt*
+
+# Temporary vars files
+*test.auto.tfvars
+*.tfvars
+*creds*.conf
